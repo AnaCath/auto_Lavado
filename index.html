@@ -538,6 +538,9 @@
         <div class="row">
             <div class="col-md-12 no-padding bordered_block bordered_wht_border intro_wrapper">
                 <div class="image_bck height600" data-image="images/auo.jpg"></div>
+                 <div class="image_bck height600" data-image="images/car1.jpg"></div>
+                  <div class="image_bck height600" data-image="images/car2.jpg"></div>
+                  <div class="image_bck height600" data-image="images/car3.jpg"></div>
                 
             </div>
         </div>
@@ -553,17 +556,16 @@
         <div class="row">
             
             <!-- Contacts -->
-            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt" data-image="http://placehold.it/1920x1100/">
+            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt" data-image="images/contacto.jpg">
                 <div class="over" data-opacity="0.6" data-color="#292929"></div>
                 <div class="col-md-12 simple_block text-left">
-                    <h3>Contacto</h3>
-                    <span class="contacts_ti ti-mobile"></span>+11 (0) 200 1111 001<br />
-                    <span class="contacts_ti ti-mobile"></span>+11 (0) 200 1111 002<br />
+                    <h3>Contacto</h3>                    
+                    <span class="contacts_ti ti-mobile"></span>+52 (0) 200 1111 002<br />
                     <span class="contacts_ti ti-email"></span><a href="mailto:support@theberg.com">support@theberg.com</a><br />
-                    <span class="contacts_ti ti-location-pin"></span>Australia place nice, RD nice DHA Road, state pace 786
+                    <span class="contacts_ti ti-location-pin"></span>Miacatlán Morelos
                     
                     <h4 class="newsletter_title">
-                        Stay informed with our newsletter
+                        Contactanos
                     </h4>
                             <input placeholder="Ingresa tu Email" class="form-control form-opacity no-margin newsletter_input" type="email" required/>
 
@@ -571,38 +573,40 @@
                                 Subscribete
                             </button>
                     <div class="form-tip">
-                        <i class="fa fa-info-circle"></i> Please trust us, we will never send you spam
+                        <i class="fa fa-info-circle"></i> Terminos y condiciones
                     </div>
                 </div>    
             </div>
             
             <!-- Write Us -->
-            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt" data-image="http://placehold.it/1920x1100/">
+            <div class="col-md-6 bordered_block image_bck bordered_wht_border white_txt" data-image="images/escribenos.jpg">
                 <div class="over" data-opacity="0.6" data-color="#292929"></div>
                 <div class="col-md-12 simple_block text-left">
-                    <h3>Escribenos</h3>
-                                        <form action="https://formspree.io/your@email.com" method="POST">
+                    <h3 class="text-center">¿Te interesa ser parte de nuestro Staff?</h3>
+                    <div  id="msjC"></div>
+                        <div  id="msjE"></div>
+                     <form id="Escribenos">
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" name="name" class="form-control form-opacity" placeholder="Nombre*">
+                                <input type="text" name="Nombre" class="form-control form-opacity" placeholder="Nombre*">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="surname" class="form-control form-opacity" placeholder="Apellido*">
+                                <input type="text" name="Apellido" class="form-control form-opacity" placeholder="Apellido*">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="city" class="form-control form-opacity" placeholder="Ciudad">
+                                <input type="text" name="Ciudad" class="form-control form-opacity" placeholder="Ciudad">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="country" class="form-control form-opacity" placeholder="País">
+                                <input type="text" name="Estado" class="form-control form-opacity" placeholder="Estado">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="email" class="form-control form-opacity" placeholder="E-mail*">
+                                <input type="text" name="Email" class="form-control form-opacity" placeholder="E-mail*">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="phone" class="form-control form-opacity" placeholder="Telefono">
+                                <input type="text" name="Tel" class="form-control form-opacity" placeholder="Telefono">
                             </div>
                             <div class="col-md-12">
-                                <textarea placeholder="Mensaje" name="message" class="form-control form-opacity"></textarea>
+                                <textarea placeholder="Mensaje" name="Mensaje" class="form-control form-opacity"></textarea>
                             </div>
                             <div class="col-md-12">
                                 <input type="submit" class="btn btn-white submit" value="Enviar">
@@ -794,6 +798,8 @@
 <script src="js/bootstrap.min.js"></script>
 <!-- Theme JS -->
 <script src="js/script.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/Escribenos.js"></script>
 
 
 </body>
